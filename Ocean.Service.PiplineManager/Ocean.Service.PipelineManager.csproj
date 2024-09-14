@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ocean.Activity.HttpClientService\Ocean.Activity.HttpClientService.csproj" />
+    <ProjectReference Include="..\Ocean.Activity.ResponseService\Ocean.Activity.ResponseService.csproj" />
+    <ProjectReference Include="..\Ocean.Activity.SmtpClientService\Ocean.Activity.SmtpClientService.csproj" />
+    <ProjectReference Include="..\Ocean.Interface\Ocean.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
